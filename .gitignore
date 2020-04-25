@@ -96,4 +96,3 @@ ENV/
 # Custom
 .devcontainer
 config.ini
-.vscode/
