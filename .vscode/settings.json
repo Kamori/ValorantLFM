@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "autoDocstring.includeName": true,
+    "markdown.extension.toc.githubCompatibility": true,
+    "python.analysis.logLevel": "Information",
+    "python.analysis.memory.keepLibraryLocalVariables": true,
+    "python.analysis.memory.keepLibraryAst": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "python.testing.nosetestArgs": [
+        "tests"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestPath": "nodetests",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.nosetestsEnabled": false,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
+    "remote.extensionKind": {
+        "ms-azuretools.vscode-docker": "workspace"
+    },
+    "python.linting.flake8Enabled": true
+}
