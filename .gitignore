@@ -96,3 +96,5 @@ ENV/
 # Custom
 .devcontainer
 config.ini
+scratchpad/
+last_known_retweet.txt
