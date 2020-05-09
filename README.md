@@ -5,6 +5,9 @@ This is a simple twitter hashtag retweeter. Any top level tweets that include a 
 defined in your config.ini will automatically be retweeted.
 
 
+This bot powers https://twitter.com/ValorantLFM
+
+
 Setup
 -----
 
