@@ -1,7 +1,7 @@
 from valorantlfm import retweet_tags
 
 if __name__ == "__main__":
-    retweet_tags("#ValorantLFG", "#ValorantLFM")
+    retweet_tags()
 
     # cfg = ConfigParser()
     # cfg.read(f"{os.path.dirname(os.path.realpath(__file__))}/config.ini")

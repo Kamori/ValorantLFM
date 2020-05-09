@@ -24,6 +24,7 @@ consumer_key = cfg["twitter"]["consumer_key"]
 consumer_secret = cfg["twitter"]["consumer_secret"]
 access_token = cfg["twitter"]["access_token"]
 access_token_secret = cfg["twitter"]["access_token_secret"]
+TAGS = [htag.strip() for htag in cfg["twitter"]["hashtags"].split(",")]
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -79,9 +80,9 @@ def _save_brain():
     BRAIN.save_file()
 
 
-def retweet_tags(*tags):
+def retweet_tags():
 
-    for tag in tags:
+    for tag in TAGS:
         print(f"Now searching for tag: {tag}")
         last_tweet_id = _get_sinceid_for_tag(tag)
         public_tweets = API.search(q=tag, count=500, since_id=last_tweet_id)
